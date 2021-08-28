@@ -116,7 +116,7 @@ export default function History() {
             <p>
             Following are the College Heights Baptist Church Pastorate:
             </p>
-            <ul role="list">
+            <ul>
               <li>Rev. Glenn Booth (Interim) July 1966 – February 1967</li>
               <li>Rev. P.A. Helms, Jr. July 1969 - May 1973</li>
               <li>Rev. Wade O. Skinner July 1974 – December 1978</li>

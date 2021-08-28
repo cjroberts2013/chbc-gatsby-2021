@@ -1,13 +1,22 @@
 import * as React from "react"
 import Header from './../Components/Header'
 import Footer from './../Components/Footer'
+import Welcome from './../Components/Welcome'
+import Cta from '../Components/Cta'
+import Videos from './../Components/Videos'
+import Seo from './../Components/Seo'
 
 
 const IndexPage = () => {
   return (
-    <React.Fragment>
+    <div>
+      <Seo title="Home" />
       <Header />
-    </React.Fragment>
+      <Welcome />
+      <Cta />
+      <Videos />
+      <Footer />
+    </div>
   )
 }
 

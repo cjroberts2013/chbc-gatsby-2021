@@ -1,7 +1,8 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://www.yourdomain.tld",
-    title: "chbcwharton",
+    siteUrl: "https://chbcwharton.gtsb.io",
+    title: "College Heights Baptist Church",
+    description: "Your go to bee removing service!"
   },
   plugins: [
     "gatsby-plugin-gatsby-cloud",
