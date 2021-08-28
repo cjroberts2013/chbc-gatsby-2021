@@ -29,12 +29,12 @@ const people = [
       },
       {
         name: 'Bob Hobbins',
-        role: 'Deacon',
+        role: 'Chaplin',
         imageUrl: Bhobbins,
       },
       {
         name: 'Georgia Hobbins',
-        role: 'Deacon',
+        role: 'WMU Director',
         imageUrl: Ghobbins,
       },
   ]

@@ -132,9 +132,12 @@ export default function Header() {
                     <span className="block text-white">College Heights Baptist Church</span>
                     <span className="block text-blue-400">Join Us Sunday</span>
                   </h1>
-                  <p className="mt-6 max-w-lg mx-auto text-center text-xl text-white sm:max-w-3xl">
-                    Watch our live stream service, Sunday at 10:45 am. 
-                  </p>
+                  <div className="mt-6 max-w-lg mx-auto text-center text-xl text-white sm:max-w-3xl">
+                    <p>Sunday School: 9:30 - 10:30 am.</p>
+                    <p>Sunday Morning Worship: 10:45 am - 12:00 pm.</p>
+                    <p>Wednesday Evening Meal: 6:00 - 6:30 pm.</p>
+                    <p>Wednesday Evening Bible Study: 6:30-  7:00 pm.</p>
+                  </div>
                 </div>
               </div>
             </div>
