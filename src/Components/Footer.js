@@ -1,4 +1,5 @@
 import React from 'react';
+import Contact from './../Components/Contact'
 import { Link } from 'gatsby';
 
 const navigation = {
@@ -16,6 +17,7 @@ const navigation = {
             <iframe title="web-image" className="hidden-phone hidden sm:block border-0 mt-7 mb-24 w-full" src="https://calendar.google.com/calendar/embed?src=kq9p2ber1969pt3fpqhgivuk1o%40group.calendar.google.com&ctz=America%2FDetroit" width="100%" height="600" frameBorder="0" scrolling="no"></iframe>
             <iframe title="mobile-image" className="visible-phone sm:hidden mt-7 mb-7 w-full" src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FDetroit&amp;src=a3E5cDJiZXIxOTY5cHQzZnBxaGdpdnVrMW9AZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&amp;color=%237986CB&amp;color=%23009688&amp;mode=AGENDA&amp;showTabs=0&amp;showPrint=0" width="100%" height="600" frameBorder="0" scrolling="no"></iframe>
         </div>
+        <Contact />
         <div className="map-holder embed-responsive-21by9 ">
             <iframe title="map-image" className="embed-responsive-item border-0 w-full" width="600" height="350" frameBorder="0"
                 src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJhTdRqTx1QYYR40lK6867iXE&key=AIzaSyAma8cgRwXXbj5Ljq3bM9iUcHcmPeo0FRo" allowFullScreen={true}></iframe>
